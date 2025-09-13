@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.comment {
+  margin: 16px 0;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.nested-comment {
+  padding-left: 2rem;
+  border-left: 2px solid #010;
+}
+.comment p {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.comment-input {
+  display: flex;
+  justify-content: "stretch";
+}
+
+.comment .user {
+  font-size: 10px;
+}
+.comment .reply {
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+}
+
+.comment-input textarea {
+  width: 100%;
+}
